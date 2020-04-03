@@ -18,7 +18,7 @@ deleteCharHandler = (index) => {
   const updatedText = text.join('');
   this.setState({userInput: updatedText});
 }
-
+//dfefasdfasdfasdfasdfasdfa
   render(){
     const charList = this.state.userInput.split('').map((ch, index) => {
       return <Char 
